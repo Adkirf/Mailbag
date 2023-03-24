@@ -1,0 +1,9 @@
+{
+    "smtp" : {
+        "host" : "mail.gmx.net", "port" : 587,
+        "secure": false
+    },
+    "imap" : {
+        "host" :  "imap.gmx.net", "port" : 993
+    }
+}
