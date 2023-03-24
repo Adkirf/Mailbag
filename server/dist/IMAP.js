@@ -28,8 +28,8 @@ class Worker {
                 client.onerror = (inError) => {
                     console.log("IMAP.Worker.listMailBoxed(): Connection error", inError);
                 };
-                console.log(client);
                 yield client.connect();
+                console.log(client);
                 return client;
             }
             catch (e) {

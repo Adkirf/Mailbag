@@ -28,7 +28,6 @@ export class Worker{
         try{
             const auth = {"user": process.env.EMAIL_USER, "pass": process.env.EMAIL_PASS}
             console.log("connecting to server")
-            console.log(auth);
             const client: any = new ImapClient.default(
                 Worker.serverInfo.imap.host,
                 Worker.serverInfo.imap.port,
@@ -42,8 +41,6 @@ export class Worker{
                 );
             };
             await client.connect();
-            console.log(client);
-
             return client; 
         }catch(e){
             console.log("connecting to server failed")
