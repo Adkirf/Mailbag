@@ -41,8 +41,8 @@ export class Worker{
                     inError
                 );
             };
-            console.log(client);
             await client.connect();
+            console.log(client);
 
             return client; 
         }catch(e){

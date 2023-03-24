@@ -15,9 +15,9 @@ async function getMailboxes() {
     const imapWorker = new IMAP.Worker();
     try{
         const mailboxes  = await imapWorker.listMailboxes();
+        console.log(mailboxes)
         mailboxes.forEach(async (inMailbox)=>{
-            const base = await baseComponent;
-            base.state.addMailboxToList(inMailbox);
+            baseComponent.state.addMailboxToList(inMailbox);
         })
     }catch(e){
         console.log("frontend: error");
