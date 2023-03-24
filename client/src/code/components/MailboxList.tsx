@@ -15,10 +15,10 @@ export default function MailboxList({state}) {
           {state.mailboxes?.map((mailbox, index)=>(
             <ListItem disablePadding key={index}>
             <ListItemButton onClick={() => {state.setCurrentMailbox(mailbox.path)}}>
-              <ListItemIcon>
+              <ListItemIcon >
                 <InboxIcon />
+                <ListItemText primary={mailbox.name} />
               </ListItemIcon>
-              <ListItemText primary={mailbox.name} />
             </ListItemButton>
           </ListItem>
           ))}

@@ -28,7 +28,6 @@ export default function MessageList({state}) {
                     hover
                     onClick={()=>{
                         state.showMessage(message)
-                        console.log("hi")
                         }}>
                         <TableCell>
                             { new Date(message.date).toLocaleDateString()}

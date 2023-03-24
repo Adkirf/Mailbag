@@ -2,6 +2,8 @@ import Button from '@mui/material/Button';
 import { AiFillAccountBook, AiFillAlert } from "react-icons/ai";
 import React from 'react'
 
+import { MdEmail, MdPermContactCalendar } from "react-icons/md";
+
 export default function Toolbar({state}) {
   
   return (
@@ -10,18 +12,19 @@ export default function Toolbar({state}) {
         size="small" style={{marginRight:10}}
         onClick={()=> state.showComposeMessage("new")}
         >
-            <AiFillAccountBook style={{marginRight:10}}> New Message</AiFillAccountBook>
+            <MdEmail style={{marginRight:10}} />
+            Writte  
         </Button>
         <Button variant="contained" color="primary" size="small"
         style={{marginRight:10}} onClick={state.showAddContact}
         >
-            <AiFillAlert style={{marginRight:10}}> New Contact</AiFillAlert>
+            <MdPermContactCalendar style={{marginRight:10}} />
+            Add Contact
         </Button>
         <Button>
 
           <p>{state.getUser()}</p>
         </Button>
-        
     </div>
   )
 }

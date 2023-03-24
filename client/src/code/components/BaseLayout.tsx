@@ -11,6 +11,7 @@ import WelcomeView from './WelcomeView';
 import ContactView from './ContactView';
 import MessageView from './MessageView';
 import MailboxList from './MailboxList';
+import ContactList from "./ContactList";
 
 class BaseLayout extends React.Component {
   state = createState(this);
@@ -45,7 +46,7 @@ class BaseLayout extends React.Component {
           </div>
         </div>
         <div className="contactList">
-          <ContactView state={this.state}/>
+          <ContactList state={this.state}/>
         </div>
       </div>
       )

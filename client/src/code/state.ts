@@ -67,6 +67,25 @@ export function createState(inParentCompontent){
             }
         }.bind(inParentCompontent),
 
+        showAddContact : function(): void{
+            this.setState({
+                currentView: "contactAdd",
+                contactId: "null",
+                contactName: "",
+                contactEmail: "",
+            })
+        }.bind(inParentCompontent),
+
+        showContact : function(inID: string, inName: string, inEmail: string):void{
+            this.setState({
+                currentView: "contact",
+                contactID: inID,
+                contactName: inName, 
+                contactEmail: inEmail
+            })
+            console.log(this.state.currentView);
+        }.bind(inParentCompontent),
+
         setCurrentMailbox : function(inPath){
             this.setState({ currentView : "welcome",
                 currentMailbox: inPath
@@ -102,7 +121,9 @@ export function createState(inParentCompontent){
                 inEvent.target.value.length > 16)
                 {return;}
 
-            this.setState({ [inEvent.target.id]: inEvent.target.value})
+                this.setState({
+                    [inEvent.target.id]: inEvent.target.value
+                   })
         }.bind(inParentCompontent),
 
         saveContact : async function(){

@@ -6,7 +6,7 @@ export class Worker {
      async listContacts(){
         const response = 
             await axios.get(`${config.serverAddress}/contacts`)
-        
+            console.log(response.data)
             return response.data;
     }
 

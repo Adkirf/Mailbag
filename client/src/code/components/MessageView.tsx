@@ -47,11 +47,11 @@ function MessageView({state}) {
         {
             state.currentView === "compose" && 
             <TextField 
-            id="messageTO"
+            id="messageTo"
             margin="dense"
             variant="outlined"
             value={state.messageTo}
-            disabled={true}
+            disabled={false}
             fullWidth={true}
             placeholder="To"
             onChange={state.fieldChangeHandler}
@@ -77,8 +77,8 @@ function MessageView({state}) {
             id="messageBody"
             margin="dense"
             variant="outlined"
-            multiline={true}
-            minRows={12}
+            multiline
+            rows={12}
             value={state.messageBody}
             disabled={state.currentView==="message"}
             fullWidth={true}
