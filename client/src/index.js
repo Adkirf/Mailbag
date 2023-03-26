@@ -14,6 +14,7 @@ const baseComponent = ReactDOM.render(
 baseComponent.state.showHidePleaseWait(true);
 
 async function getMailboxes() {
+    console.log("loading front end");
     const imapWorker = new IMAP.Worker();
     const contactWorker = new Contacts.Worker();
     try{

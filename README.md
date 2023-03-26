@@ -89,10 +89,6 @@ You can use the Mailbag with your own email account using your localhost, or dep
   
   
 
-     
-
-<!-- CONTACT -->
-
 ## Contact
 
 Your Name - [@adkirf](https://twitter.com/adkirf)
