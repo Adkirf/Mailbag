@@ -3,8 +3,6 @@
 ### A customizable Client to manage your E-mails and contacts. 
 
 
-![Minion](/projectImg.png) 
-
 [See Demo Website](https://mailbag-production.up.railway.app)
 
 ## Table of contents
@@ -13,9 +11,6 @@
 * Template
 * Contact
 
-
-
-<!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
