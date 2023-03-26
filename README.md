@@ -91,7 +91,7 @@ You can use the Mailbag with your own email account using your localhost, or dep
 
 ## Contact
 
-Your Name - [@adkirf](https://twitter.com/adkirf)
+Twitter - [@adkirf](https://twitter.com/adkirf)
 
 Project Link: [Adkirf Portfolio](https://portfolio-v2-nu-ivory.vercel.app/)
 
