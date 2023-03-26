@@ -1,38 +1,19 @@
-<a name="readme-top"></a>
+# Mailbabg
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://mailbag-production.up.railway.app">
-    <img src="/projectImg.png" alt="Logo" width="80" height="80">
-  </a>
+### A customizable Client to manage your E-mails and contacts. 
 
-<h3 align="center">Mailbag</h3>
 
-  <p align="center">
-    A custom Email client to manage your email account. 
-    <br />
-    <a href="(https://mailbag-production.up.railway.app"><strong> Explore the Mailbag »</strong></a>
-  </p>
-</div>
+![Minion](/projectImg.png) 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a> 
-    </li>
-    <li>
-      <a href="#built-with">Built With</a>
-     </li>
-    <li><a href="#roadmap">Roadmap</a>
-    </li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a>
-    </li>
-  </ol>
-</details>
+[See Demo Website](https://mailbag-production.up.railway.app)
+
+## Table of contents
+* About
+* Acknowledgments
+* Template
+* Contact
+
+
 
 <!-- ABOUT THE PROJECT -->
 
@@ -52,14 +33,12 @@ Mailbag is a customizable UI for your email account that gives you access to mai
   The biggest issues encoutered were not during wriiting the code it self but the set-up. Most files are written in TypeScript, which requieres webpack to complie them into JavaScript. Specially for the Client, which containts jsx, setting up the Loaders and Plugins tested my knowldge about Webpack. And runnnig in the localhost, deploying it to a publicly accessible domain required more research on server's and how they to connect clients to them. 
 This project was great to build a foundational understanding of clients, servers and how they can be connected. 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## Acknowledgments
 
 This project follows a exmaple of the book: "Modern Full-Stack Development Using TypeScript, React, Node.js, Webpack, Python, Django, and Docker" by Frank Zammetti. 
   
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## Template
@@ -115,10 +94,7 @@ You can use the Mailbag with your own email account using your localhost, or dep
   
   
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-      
-    
-
+     
 
 <!-- CONTACT -->
 
@@ -126,11 +102,9 @@ You can use the Mailbag with your own email account using your localhost, or dep
 
 Your Name - [@adkirf](https://twitter.com/adkirf)
 
-Project Link: [Adkirf Portfolio](https://adkirf.github.io/)
+Project Link: [Adkirf Portfolio]((https://portfolio-v2-nu-ivory.vercel.app/)
 
 If you have any suggestions that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
