@@ -31,7 +31,11 @@ app.use(function(inRequest: Request, inResponse: Response, inNext: NextFunction)
 app.use("/",  
     express.static(path.join(__dirname, "../../client/dist"))
 
+    
 )
+const pathClient = path.join(__dirname, "../../client/dist")
+console.log("path")
+console.log(pathClient);
 
 app.get("/mailboxes",
 async (inRequest: Request, inResponse: Response)=>{
