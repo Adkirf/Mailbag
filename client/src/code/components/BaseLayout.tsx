@@ -35,6 +35,9 @@ class BaseLayout extends React.Component {
         <div className="mailboxList">
           <MailboxList state={this.state}/>
         </div>
+        <div className='text-white text-xl'>
+          HELLO
+        </div>
         <div className="centerArea">
           <div className="messageList">
             <MessageList state={this.state}/>

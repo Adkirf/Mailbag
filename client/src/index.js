@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from "react-dom"
 
-import "./css/main.css"
+import "./index.css"
 
 import * as IMAP from "./code/IMAP"
 import * as Contacts from "./code/Contacts"
@@ -13,7 +13,7 @@ const baseComponent = ReactDOM.render(
 
 baseComponent.state.showHidePleaseWait(true);
 
-async function getMailboxes() {
+async function initState() {
     console.log("loading front end");
     const imapWorker = new IMAP.Worker();
     const contactWorker = new Contacts.Worker();
@@ -33,6 +33,6 @@ async function getMailboxes() {
  
 }
 
-getMailboxes().then(()=>{
+initState().then(()=>{
     baseComponent.state.showHidePleaseWait(false)
 })
