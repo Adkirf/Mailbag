@@ -60,7 +60,7 @@ You can use the Mailbag with your own email account using your localhost, or dep
    ```
    After that you need to rebuild the dist directoy by using the terminal command: 
    ```sh
-   cd run build
+   npm run build
    ```
 3. Configure the Server
   In the server/serverInfo.json modify 
